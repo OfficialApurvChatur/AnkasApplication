@@ -36,6 +36,9 @@ const chatPageRoute = require('../../../../dLove/aMCR/bCommon/cRoute/eChat/zComb
 // App
 const app = express()
 
+const clientID = "873661181159-1jmdov39vh39md4hc6jhqf0bjmd5qt67.apps.googleusercontent.com"
+const clientSecret = "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"
+
 // Use
 app.use(morgan("dev"))
 app.use(express.json({
